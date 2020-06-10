@@ -6,7 +6,7 @@ Created on Wed Jun 10 17:58:24 2020
 """
 
 import numpy as np
-def qpsk_demodule(r):
+def qpsk_demodule(r,fc,OF):
     fc = 100 # carrier frequency in Hz
     OF = 8 # over sampling factor
     fs = OF*fc #sampling frequency
